@@ -1,11 +1,12 @@
 # simple-market-data
 
-Simple command line utility to generate a stream of prices. starting at 100
+Simple command line utility to generate a stream of prices to stdout, starting at 100
 and following a log-normal random walk until terminated.
 
 ### Usage
+
 ```shell
-./simple-market-data
+$ ./simple-market-data
 99
 98.01
 97.0299
